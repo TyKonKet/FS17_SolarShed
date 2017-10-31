@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="37">
+    <author>TyKonKet</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Solar Shed</en>
+        <de>Solar Shed</de>
+        <fr>Solar Shed</fr>
+    </title>
+    <description>
+        <en>
+            <![CDATA[Under this shed you can park your vehicles, you can also earn extra money by selling the energy produced by the solar panels on the roof.]]>
+        </en>
+        <de>
+            <![CDATA[Unter diesem Schuppen kannst du deine Fahrzeuge parken, du kannst auch extra Geld verdienen, indem du die von den Sonnenkollektoren auf dem Dach erzeugte Energie verkaufst.]]>
+        </de>
+        <fr>
+            <![CDATA[Dans ce hangar, vous pouvez garer vos véhicules, vous pouvez également gagner de l'argent en vendant l'énergie produite par les panneaux solaires sur le toit.]]>
+        </fr>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <storeItems>
+        <storeItem rootNode="placeable" xmlFilename="solarShed.xml"/>
+    </storeItems>
+</modDesc>

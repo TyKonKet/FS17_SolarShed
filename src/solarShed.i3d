@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="SolarShed" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="1" filename="textures/shedsAndStables_diffuse.dds" relativePath="true"/>
+    <File fileId="2" filename="textures/shedsAndStables_normal.dds" relativePath="true"/>
+    <File fileId="3" filename="textures/solarCollector_diffuse.dds" relativePath="true"/>
+    <File fileId="4" filename="textures/solarCollector_normal.dds" relativePath="true"/>
+  </Files>
+
+  <Materials>
+    <Material name="shed_mat" materialId="1" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="solarPanles_mat" materialId="2" cosPower="20" specularColor="0.5 0.5 0.5" ambientColor="1 1 1">
+      <Texture fileId="3"/>
+      <Normalmap fileId="4"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="solarShed.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="solarShed_vis" shapeId="1" static="true" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="800" nodeId="1">
+      <Shape name="solarPanels_vis" translation="-0.00208841 7.97298 0" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="200" nodeId="2"/>
+      <Shape name="basement_vis" translation="0 -1.2 0" shapeId="3" static="true" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="800" nodeId="3"/>
+      <TransformGroup name="clearArea" nodeId="4">
+        <TransformGroup name="start" translation="-8.4 0 -12" nodeId="5"/>
+        <TransformGroup name="width" translation="8.4 0 -12" nodeId="6"/>
+        <TransformGroup name="height" translation="-8.4 0 12" nodeId="7"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>
