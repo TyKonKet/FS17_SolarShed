@@ -8,7 +8,7 @@
             <capacity unit="$l10n_unit_kw">1</capacity>
         </specs>
         <image>store.dds</image>
-        <price>51475</price>
+        <price>35875</price>
         <dailyUpkeep>10</dailyUpkeep>
         <functions>
             <function>$l10n_function_powerGenerator</function>
@@ -27,9 +27,9 @@
     <placeableType>placeable</placeableType>
     <filename>solarShed.i3d</filename>
     <placement testSizeX="20" testSizeZ="30" sizeX="18" sizeZ="25" useRandomYRotation="false" useManualYRotation="true"/>
-    <incomePerHour1>100</incomePerHour1>
-    <incomePerHour2>60</incomePerHour2>
-    <incomePerHour3>30</incomePerHour3>
+    <incomePerHour1>150</incomePerHour1>
+    <incomePerHour2>100</incomePerHour2>
+    <incomePerHour3>80</incomePerHour3>
     <clearAreas>
         <clearArea startIndex="0>2|0" widthIndex="0>2|1" heightIndex="0>2|2"/>
     </clearAreas>
