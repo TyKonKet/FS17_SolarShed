@@ -10,19 +10,19 @@
     <File fileId="1" filename="textures/shedsAndStables_diffuse.dds" relativePath="true"/>
     <File fileId="2" filename="textures/shedsAndStables_normal.dds" relativePath="true"/>
     <File fileId="3" filename="textures/shedsAndStables_specular.png" relativePath="true"/>
-    <File fileId="5" filename="textures/solarCollector_diffuse.dds" relativePath="true"/>
-    <File fileId="6" filename="textures/solarCollector_normal.dds" relativePath="true"/>
-    <File fileId="7" filename="textures/solarCollector_specular.png" relativePath="true"/>
+    <File fileId="6" filename="textures/solarCollector_diffuse.dds" relativePath="true"/>
+    <File fileId="7" filename="textures/solarCollector_normal.dds" relativePath="true"/>
+    <File fileId="8" filename="textures/solarCollector_specular.png" relativePath="true"/>
   </Files>
 
 
   <Materials>
-    <Material name="solarPanles_mat" materialId="8" ambientColor="1 1 1" cosPower="20" specularColor="0.5 0.5 0.5">
-      <Texture fileId="5"/>
-      <Normalmap fileId="6"/>
-      <Glossmap fileId="7"/>
+    <Material name="solarPanles_mat" materialId="6" ambientColor="1 1 1" cosPower="20" specularColor="0.5 0.5 0.5">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+      <Glossmap fileId="8"/>
     </Material>
-    <Material name="shed_mat" materialId="7" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1" alphaBlending="true" customShaderId="4">
+    <Material name="shed_mat" materialId="8" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1" alphaBlending="true" customShaderId="4" customShaderVariation="FORCE_GLOSS_SECONDUV">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
@@ -40,9 +40,9 @@
   </Dynamics>
 
   <Scene>
-    <Shape shapeId="1" name="solarShed_vis" static="true" clipDistance="800" nodeId="13" materialIds="7" castsShadows="true" receiveShadows="true">
-      <Shape shapeId="2" name="solarPanels_vis" translation="-0.00208841 7.97298 0" clipDistance="200" nodeId="14" materialIds="8" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="3" name="basement_vis" translation="0 -1.2 0" static="true" clipDistance="800" nodeId="15" materialIds="7" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="1" name="solarShed_vis" static="true" clipDistance="800" nodeId="13" materialIds="8" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="solarPanels_vis" translation="-0.00208841 7.97298 0" clipDistance="200" nodeId="14" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="basement_vis" translation="0 -1.2 0" static="true" clipDistance="800" nodeId="15" materialIds="8" castsShadows="true" receiveShadows="true"/>
       <TransformGroup name="clearArea" nodeId="16">
         <TransformGroup name="start" translation="-8.4 0 -12" nodeId="17"/>
         <TransformGroup name="width" translation="8.4 0 -12" nodeId="18"/>
