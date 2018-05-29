@@ -23,6 +23,10 @@ _ Fixed textures issues
       <de>
 <![CDATA[Unter diesem Schuppen kannst du deine Fahrzeuge parken, du kannst auch extra Geld verdienen, indem du die von den Sonnenkollektoren auf dem Dach erzeugte Energie verkaufst.
 
+Preis: 35875 €
+Wartung: 10 € / Tag
+Einkommen: 150 € / h
+
 Changelog 1.2.0.0
 - Fixed multiplayer
 - Fixed shader issue
@@ -32,6 +36,10 @@ _ Fixed textures issues
       <fr>
       <![CDATA[
 Dans ce hangar, vous pouvez garer vos véhicules, vous pouvez également gagner de l'argent en vendant l'énergie produite par les panneaux solaires sur le toit.
+
+Prix: 35875 €
+Maintenance: 10 € / jour
+Revenus: 150 € / h
 
 Changelog 1.2.0.0
 - Fixed multiplayer
