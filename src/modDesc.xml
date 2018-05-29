@@ -6,18 +6,39 @@
       <en>Solar Shed</en>
    </title>
    <description>
-      <en><![CDATA[Under this shed you can park your vehicles, you can also earn extra money by selling the energy produced by the solar panels on the roof.
+      <en>
+<![CDATA[
+Under this shed you can park your vehicles, you can also earn extra money by selling the energy produced by the solar panels on the roof.
 
-            Changelog 1.2.0.0
-            - Fixed multiplayer]]></en>
-      <de><![CDATA[Unter diesem Schuppen kannst du deine Fahrzeuge parken, du kannst auch extra Geld verdienen, indem du die von den Sonnenkollektoren auf dem Dach erzeugte Energie verkaufst.
+Price: 35875 €
+Maintenance: 10 € / day
+Income: 150 € / h
 
-            Changelog 1.2.0.0
-            - Mehrspielermodus korrigiert]]></de>
-      <fr><![CDATA[Dans ce hangar, vous pouvez garer vos véhicules, vous pouvez également gagner de l'argent en vendant l'énergie produite par les panneaux solaires sur le toit.
+Changelog 1.2.0.0
+- Fixed multiplayer
+- Fixed shader issue
+_ Fixed textures issues
+]]>
+      </en>
+      <de>
+<![CDATA[Unter diesem Schuppen kannst du deine Fahrzeuge parken, du kannst auch extra Geld verdienen, indem du die von den Sonnenkollektoren auf dem Dach erzeugte Energie verkaufst.
 
-            Changelog 1.2.0.0
-            - Multijoueur fixe]]></fr>
+Changelog 1.2.0.0
+- Fixed multiplayer
+- Fixed shader issue
+_ Fixed textures issues
+]]>
+      </de>
+      <fr>
+      <![CDATA[
+Dans ce hangar, vous pouvez garer vos véhicules, vous pouvez également gagner de l'argent en vendant l'énergie produite par les panneaux solaires sur le toit.
+
+Changelog 1.2.0.0
+- Fixed multiplayer
+- Fixed shader issue
+_ Fixed textures issues
+]]>
+      </fr>
    </description>
    <iconFilename>icon.png</iconFilename>
    <multiplayer supported="true" />
